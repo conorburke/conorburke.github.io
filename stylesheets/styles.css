@@ -2,14 +2,14 @@ body {
   background-color: #2b4023;
   color: white;
   font-family: Georgia, Times;
-  width: 960px;
+  max-width: 960px;
   margin: 0px auto;
 }
 .wrapper {
   background-image: url("../pictures/mtbaldy1.jpg");
   background-size: 960px;
   background-color: white;
-  min-width: 460px;
+  min-width: 440px;
   margin: 0px auto;
 }
 .smaller_image {
@@ -63,4 +63,14 @@ footer{
   font-size: 20px;
   margin: 0px;
   text-align: center;
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 960px) {
+  img {
+    width: 440px;
+  }
 }
