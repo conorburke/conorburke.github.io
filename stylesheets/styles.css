@@ -5,6 +5,15 @@ body {
   width: 960px;
   margin: 0px auto;
 }
+.wrapper {
+  background-image: url("../pictures/mtbaldy1.jpg");
+  min-width: 960px;
+  width: 1400px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+  margin-left: 0px;
+}
 h1{
   text-align: center;
   background-color: black;
