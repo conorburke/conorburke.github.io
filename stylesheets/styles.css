@@ -31,6 +31,9 @@ h1{
 h2{
   text-align: center;
 }
+#centertext{
+  text-align: center;
+}
 img{
   border: 4px solid black;
   display: block;
