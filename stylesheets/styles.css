@@ -39,7 +39,7 @@ html, body {
   border-radius: 20px;
   margin: 50px;
   padding: 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
   opacity: 0.9;
   color: #000;
   flex: 1;
