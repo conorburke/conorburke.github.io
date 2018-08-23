@@ -1,93 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Burke Family Excursion</title>
+    <title>Conor Burke's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
-    <h1>Claire and Conor's West Coast Excursion</h1>
-    <img src="pictures/main_picture.jpg" alt="Picture of family on hike.">
-    <p>During the first two weeks of August 2016, my wife Claire and I, along with our two dogs Bailey and Cali, went on an amazing trip up and down the west coast.  We were able to see many of the great national parks that are our country's treasure.  We hope you enjoy looking through our trip and hopefully this helps you plan your own one day!</p>
-    <h2>Trip Itinery</h2>
-    <table>
-      <tr>
-        <th colspan="3">Dates and National Parks Visited</th>
-      </tr>
-      <tr>
-        <th>Day</th>
-        <th colspan="2">Location</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td colspan="2">Death Valley</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td colspan="2">Grand Canyon</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td colspan="2">Zion</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td colspan="2">Bryce Canyon and Bridges</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td colspan="2">Arches and Dinosaur National Monument</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td colspan="2">Grand Tetons</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td colspan="2">Yellowstone</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td colspan="2">Craters of the Moon</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td colspan="2">Mount Hood</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td colspan="2">Crater Lake</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td colspan="2">Redwoods</td>
-      </tr>
-      <tr>
-        <td>12</td>
-        <td colspan="2">Yosemite</td>
-      </tr>
-    </table>
-    <h2>Check out our trip with the links below!</h2>
-    <nav>
-      <ol>
-        <li><a href="part1.html">Heading North</a></li>
-        <li><a href="part2.html">Far From Home</a></li>
-        <li><a href="part3.html">Heading South</a></li>
-        <li><a href="dogs.html">Our Loyal Companions</a></li>
-        <li><a href="mtbaldy.html">Southern California</a></li>
-      </ol>
-    </nav>
-    <h2>Lodging and Transport</h2>
-    <p>We spent each night in our tent with just some blankets and mats.  Our trusty steed was my '07 Tacoma which was reliable the entire way, even on some very unforgiving off-road trails.  I definitely recommend the North Face Stormbreak 2 tent, as it kept us dry and was very easy to set up and tear down.</p>
-    <img src="pictures/truck.jpg" alt="Mid-sized Toyota truck in canyon">
-    <img src="pictures/tent.jpg" alt="Tent in canyon">
-    <p>Here is a link to another site, <a href="http://www.outdoorproject.com/blog-news/ultimate-west-coast-road-trip">Ultimate West Coast Road Trip</a>, that details a similar trip along the west coast.  It's very nicely formatted in many ways; it has a cool banner at the top and has a consistent style throughout with helpful graphics.  In my opinion, it could have used more navigation tags to help switch between different sections, but it has a very clean presentation.</p>
-    <footer>
-      <a href="index.html">Home Page</a>
-      <a href="part1.html">Heading North</a>
-      <a href="part2.html">Far From Home</a>
-      <a href="part3.html">Heading South</a>
-      <a href="dogs.html">Our Loyal Companions</a>
-      <a href="mtbaldy.html">Southern California</a>
-    </footer>
+    <header>
+      <div id="empty-links">
+      </div>
+      <div id="links">
+        <a id="home-link">Home</a>
+        <a id="projects-link">Projects</a>
+        <a id="about-link">About Me</a>
+        <a id="contact-link">Contact</a>
+      </div>
+    </header>
+    <div id="container">
+      <div id="left-container">
+        <div class="left-container-div"><h1>Conor Burke</h1></div>
+        <div class="left-container-div"><h4>Software Engineer.  Web Developer. Avid Explorer.</h4></div>
+        <div class="left-container-div" class="icons">
+          <a href="https://www.linkedin.com/in/conorburke89/" target="_blank">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="https://github.com/conorburke" target="_blank" >
+            <i class="fab fa-github fa-4x"></i>
+          </a>
+          <a href="https://www.facebook.com/conor.burke.940" target="_blank">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+        </div>
+        <div class="left-container-div"><h3>Keep Looking Up.</h3></div>
+        <div id="left-container-bottom-div"></div>
+      </div>
+      <div id="right-container">
+        <div id="projects-div" class="link-div">
+          <h3>Projects</h3>
+          <div class="project-container">
+            <a class="project-titles" href="https://magnetar.herokuapp.com" target="_blank"><h5>Magnetar</h5></a>
+            <img src="pictures/magnetar.png" alt="Magnetar Website" />
+            <p>Tool Renting App</p>
+            <p>Tech Uses: React, Node, GraphQL, PostgreSQL, Google OAuth, CircleCI</p>
+          </div>
+          <div class="project-container">
+            <a class="project-titles" href="https://seespotgo.herokuapp.com" target="_blank"><h5>SeeSpotGo</h5></a>
+            <img src="pictures/seespotgo.png" alt="SeeSpotGo Website" />
+            <p>Find and Rent Parking Spaces</p>
+            <p>Tech Uses: Rails, Redis, Google Maps API, PostgreSQL, TravisCI</p>
+          </div>
+          <div class="project-container">
+            <a class="project-titles" href="https://telescopesaretimemachines.herokuapp.com" target="_blank"><h5>Telescopes are Time Machines</h5></a>
+            <img src="pictures/telescopes.png" alt="Telescopes are Time Machines Website" />
+            <p>Social App to Find and Discuss Astronomical Events</p>
+            <p>Tech Uses: Rails, Redis, Twitter API, PostgreSQL, TravisCI</p>
+          </div>
+        </div>
+        <div id="about-div" class="link-div">
+          <h3>About Me</h3>
+          <p>
+            Living in South Park (no, not that one), San Diego, I am a software engineer
+            currently employed at Booz Allen Hamilton working on a big data platform
+            and cyber awareness tool for the U.S. Navy at the Space and Naval Warfare Systems
+            Command in Point Loma, CA.
+          </p>
+          <p>
+            In addition to my amazing job, I am lucky enough to be a graduate student at Georgia 
+            Tech in the College of Computing.  I'm taking an information security class and am 
+            planning on specializing in Interactive Intelligence, which largely deals with human - 
+            computer interaction.  I have a bachelor's degree in Managemenent Information Systems 
+            as well as Finance from Villanova University, and also graduated from Dev Bootcamp.
+          </p> 
+          <p>
+            I get to enjoy life with my wife Claire, a nurse in the Navy Nurse Corps, and our infant 
+            son Ronan, as well as our two Boston Terriers, Bailey and Cali.  In my free time (is that
+            still a thing?) I enjoy going on hikes, working out, playing guitar, boxing, and camping.
+            Oh and of course the hobby I am best at, waisting time on YouTube.
+          </p>
+        </div>
+        <div id="contact-div" class="link-div">
+          <h3>Contact Me!</h3>
+          <p>
+            I can easily be reached by message through any of the links to the side (LinkedIn,
+            GitHub, Facebook), but feel free to also e-mail me at 
+            <a href="mailto:cjburke89@gmail.com">cjburke89@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        $('#home-link').on('click', () => {
+          $('.link-div').css('display', 'none');
+          $('#right-container').css('background', 'none');
+          $('#right-container').css('border', 'none');
+        });
+        $('#projects-link').on('click', () => {
+          $('.link-div').css('display', 'none');
+          $('#right-container').css('background', 'silver')
+          $('#projects-div').css('display', 'block');
+          $('#right-container').css('border', '4px solid whitesmoke');
+        });
+        $('#about-link').on('click', () => {
+          $('.link-div').css('display', 'none');
+          $('#right-container').css('background', 'silver')
+          $('#about-div').css('display', 'block');
+          $('#right-container').css('border', '4px solid whitesmoke');
+        });
+        $('#contact-link').on('click', () => {
+          $('.link-div').css('display', 'none');
+          $('#right-container').css('background', 'silver')
+          $('#contact-div').css('display', 'block');
+          $('#right-container').css('border', '4px solid whitesmoke');
+        });
+      })
+    </script>
   </body>
 </html>
