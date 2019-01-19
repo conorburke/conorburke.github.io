@@ -40,7 +40,7 @@ html, body {
   margin: 50px;
   padding: 10px;
   overflow-y: auto;
-  opacity: 0.9;
+  opacity: 0.95;
   color: #000;
   flex: 1;
   
@@ -153,6 +153,13 @@ img {
   #left-container {
     text-align: center;
     margin: 50px;
+    padding-top: 70px;
+    padding-bottom: 55px;
+    flex: 1;
+  }
+
+  #right-container {
+    flex: 3;
   }
 
   h1 {
