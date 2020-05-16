@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.be8c760a.chunk.css",
-    "main.js": "/static/js/main.98617e96.chunk.js",
-    "main.js.map": "/static/js/main.98617e96.chunk.js.map",
+    "main.js": "/static/js/main.984a0d4c.chunk.js",
+    "main.js.map": "/static/js/main.984a0d4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.69192133.js",
     "runtime-main.js.map": "/static/js/runtime-main.69192133.js.map",
-    "static/js/2.1cbc7cfa.chunk.js": "/static/js/2.1cbc7cfa.chunk.js",
-    "static/js/2.1cbc7cfa.chunk.js.map": "/static/js/2.1cbc7cfa.chunk.js.map",
+    "static/js/2.55a4190f.chunk.js": "/static/js/2.55a4190f.chunk.js",
+    "static/js/2.55a4190f.chunk.js.map": "/static/js/2.55a4190f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e37012b0975c417e127f248b04129593.js": "/precache-manifest.e37012b0975c417e127f248b04129593.js",
+    "precache-manifest.5e117cfbe2aea73c51c857b2e0686880.js": "/precache-manifest.5e117cfbe2aea73c51c857b2e0686880.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.be8c760a.chunk.css.map": "/static/css/main.be8c760a.chunk.css.map",
     "static/media/claire.jpg": "/static/media/claire.21608779.jpg",
-    "static/media/magnetar_tools_page.png": "/static/media/magnetar_tools_page.e7d2553e.png",
-    "static/media/mancala.png": "/static/media/mancala.0f65230c.png",
-    "static/media/seespotgo.png": "/static/media/seespotgo.a19c4e7d.png",
-    "static/media/telescopes.png": "/static/media/telescopes.e0df4810.png",
+    "static/media/magnetar_tools_page.png": "/static/media/magnetar_tools_page.f97af184.png",
+    "static/media/mancala.png": "/static/media/mancala.98c3c009.png",
+    "static/media/seespotgo.png": "/static/media/seespotgo.e67f8a71.png",
+    "static/media/telescopes.png": "/static/media/telescopes.9c04c12b.png",
     "static/media/walter.png": "/static/media/walter.4230a9ca.png",
-    "static/media/yoda.jpg": "/static/media/yoda.6497855d.jpg"
+    "static/media/yoda.jpg": "/static/media/yoda.2dff5d61.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.69192133.js",
-    "static/js/2.1cbc7cfa.chunk.js",
+    "static/js/2.55a4190f.chunk.js",
     "static/css/main.be8c760a.chunk.css",
-    "static/js/main.98617e96.chunk.js"
+    "static/js/main.984a0d4c.chunk.js"
   ]
 }
